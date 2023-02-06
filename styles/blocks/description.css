@@ -3,6 +3,11 @@
 	padding: 100px 0;
 }
 
+.description-grey {
+	background-color: #f2f2f2;
+	padding: 160px 0 100px;
+}
+
 .two-columns {
 	width: 80%;
 	margin: 0 auto;
