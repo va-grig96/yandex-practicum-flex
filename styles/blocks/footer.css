@@ -1,0 +1,67 @@
+/*подвал сайта, блок footer*/
+.footer {
+	background-color: #1f1f1f;
+	padding: 60px 0 40px;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+
+.footer__columns {
+	width: 90%;
+	height: 350px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__column {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__column_content_copyright {
+	flex-basis: 711px;
+	justify-content: space-between;
+}
+
+.footer__logo img {
+	width: 228px;
+	height: 32px;
+}
+
+.footer__author {
+	margin: 18px 0;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 400;
+}
+
+.footer__column-heading {
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 600;
+}
+
+.footer__column-links {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+}
+
+.footer__column-link {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer__column-link img {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}

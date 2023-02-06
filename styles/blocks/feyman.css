@@ -1,0 +1,49 @@
+/*секция, блок feynman*/
+.feyman {
+	background-color: #f2f2f2;
+	height: 790px;
+	padding-top: 100px;
+	position: relative;
+}
+
+.feyman img {
+	width: 867px;
+	height: 637px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.feyman__title {
+	font-size: 120px;
+	line-height: 1.15;
+	font-weight: 600;
+	max-width: 648px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 70px;
+	position: relative;
+	z-index: 5;
+}
+
+.feyman__subtitle {
+	font-size: 36px;
+	line-height: 51px;
+	font-weight: 400;
+	position: relative;
+	z-index: 5;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.feyman__link {
+	position: absolute;
+	top: 50%;
+	right: 48px;
+	z-index: 10;
+	text-decoration: none;
+	color: #2f80ed;
+	font-size: 36px;
+	line-height: 51px;
+	font-weight: 400;
+}
